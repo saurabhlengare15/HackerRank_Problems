@@ -1,0 +1,10 @@
+# cook your dish here
+for _ in range(int(input())):
+    n = int(input())
+    num = "4"
+    count = 0
+    
+    for i in str(n):
+        if num==i:
+            count += 1
+    print(count)
